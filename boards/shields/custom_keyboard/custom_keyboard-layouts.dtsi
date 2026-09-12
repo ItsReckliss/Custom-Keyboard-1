@@ -1,0 +1,91 @@
+#include <physical_layouts.dtsi>
+
+/ {
+    default_layout: default_layout {
+        compatible = "zmk,physical-layout";
+        display-name = "Default";
+
+        keys
+        // Top row: Esc through Delete
+            = <&key_physical_attrs 100 100    0 176 0 0 0>
+            , <&key_physical_attrs 100 100  100 176 0 0 0>
+            , <&key_physical_attrs 100 100  200 176 0 0 0>
+            , <&key_physical_attrs 100 100  300 176 0 0 0>
+            , <&key_physical_attrs 100 100  400 176 0 0 0>
+            , <&key_physical_attrs 100 100  500 176 0 0 0>
+            , <&key_physical_attrs 100 100  600 176 0 0 0>
+            , <&key_physical_attrs 100 100  700 176 0 0 0>
+            , <&key_physical_attrs 100 100  800 176 0 0 0>
+            , <&key_physical_attrs 100 100  900 176 0 0 0>
+            , <&key_physical_attrs 100 100 1000 176 0 0 0>
+            , <&key_physical_attrs 100 100 1100 176 0 0 0>
+            , <&key_physical_attrs 100 100 1200 176 0 0 0>
+            , <&key_physical_attrs 200 100 1300 176 0 0 0>
+            , <&key_physical_attrs 100 100 1590 176 0 0 0>
+
+        // Tab row
+            , <&key_physical_attrs 150 100    0 276 0 0 0>
+            , <&key_physical_attrs 100 100  150 276 0 0 0>
+            , <&key_physical_attrs 100 100  250 276 0 0 0>
+            , <&key_physical_attrs 100 100  350 276 0 0 0>
+            , <&key_physical_attrs 100 100  450 276 0 0 0>
+            , <&key_physical_attrs 100 100  550 276 0 0 0>
+            , <&key_physical_attrs 100 100  650 276 0 0 0>
+            , <&key_physical_attrs 100 100  750 276 0 0 0>
+            , <&key_physical_attrs 100 100  850 276 0 0 0>
+            , <&key_physical_attrs 100 100  950 276 0 0 0>
+            , <&key_physical_attrs 100 100 1050 276 0 0 0>
+            , <&key_physical_attrs 100 100 1150 276 0 0 0>
+            , <&key_physical_attrs 100 100 1250 276 0 0 0>
+            , <&key_physical_attrs 150 100 1350 276 0 0 0>
+            , <&key_physical_attrs 100 100 1590 276 0 0 0>
+
+        // Caps Lock row
+            , <&key_physical_attrs 175 100    0 376 0 0 0>
+            , <&key_physical_attrs 100 100  175 376 0 0 0>
+            , <&key_physical_attrs 100 100  275 376 0 0 0>
+            , <&key_physical_attrs 100 100  375 376 0 0 0>
+            , <&key_physical_attrs 100 100  475 376 0 0 0>
+            , <&key_physical_attrs 100 100  575 376 0 0 0>
+            , <&key_physical_attrs 100 100  675 376 0 0 0>
+            , <&key_physical_attrs 100 100  775 376 0 0 0>
+            , <&key_physical_attrs 100 100  875 376 0 0 0>
+            , <&key_physical_attrs 100 100  975 376 0 0 0>
+            , <&key_physical_attrs 100 100 1075 376 0 0 0>
+            , <&key_physical_attrs 100 100 1175 376 0 0 0>
+            , <&key_physical_attrs 225 100 1275 376 0 0 0>
+            , <&key_physical_attrs 100 100 1590 376 0 0 0>
+
+        // Shift row
+            , <&key_physical_attrs 225 100    0 476 0 0 0>
+            , <&key_physical_attrs 100 100  225 476 0 0 0>
+            , <&key_physical_attrs 100 100  325 476 0 0 0>
+            , <&key_physical_attrs 100 100  425 476 0 0 0>
+            , <&key_physical_attrs 100 100  525 476 0 0 0>
+            , <&key_physical_attrs 100 100  625 476 0 0 0>
+            , <&key_physical_attrs 100 100  725 476 0 0 0>
+            , <&key_physical_attrs 100 100  825 476 0 0 0>
+            , <&key_physical_attrs 100 100  925 476 0 0 0>
+            , <&key_physical_attrs 100 100 1025 476 0 0 0>
+            , <&key_physical_attrs 100 100 1125 476 0 0 0>
+            , <&key_physical_attrs 175 100 1225 476 0 0 0>
+            , <&key_physical_attrs 100 100 1464 502 0 0 0>
+            , <&key_physical_attrs 100 100 1590 476 0 0 0>
+
+        // Bottom row and arrow cluster
+            , <&key_physical_attrs 125 100    0 576 0 0 0>
+            , <&key_physical_attrs 125 100  125 576 0 0 0>
+            , <&key_physical_attrs 125 100  250 576 0 0 0>
+            , <&key_physical_attrs 625 100  375 576 0 0 0>
+            , <&key_physical_attrs 125 100 1000 576 0 0 0>
+            , <&key_physical_attrs 100 100 1125 576 0 0 0>
+            , <&key_physical_attrs 100 100 1225 576 0 0 0>
+            , <&key_physical_attrs 100 100 1364 602 0 0 0>
+            , <&key_physical_attrs 100 100 1464 602 0 0 0>
+            , <&key_physical_attrs 100 100 1564 602 0 0 0>
+
+        // Encoder push button
+            , <&key_physical_attrs 100 100 1558   0 0 0 0>
+            ;
+    };
+};

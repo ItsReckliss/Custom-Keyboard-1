@@ -1,3 +1,4 @@
+name: zmk-keyboard-custom-keyboard
 build:
   settings:
     board_root: .

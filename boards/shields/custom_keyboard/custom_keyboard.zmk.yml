@@ -1,0 +1,14 @@
+file_format: "1"
+id: custom_keyboard
+name: Custom ZMK KB
+type: shield
+url: https://github.com/ItsReckliss/Custom-Keyboard-1
+requires:
+  - pro_micro
+exposes:
+  - i2c_oled
+features:
+  - keys
+  - display
+  - encoder
+  - studio
