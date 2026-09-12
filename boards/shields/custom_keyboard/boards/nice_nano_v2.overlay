@@ -30,7 +30,7 @@
 };
 
 &i2c0 {
-    compatible = "nordic,nrf-twim";
+    compatible = "nordic,nrf-twi";
     status = "okay";
 
     pinctrl-0 = <&custom_i2c0_default>;
